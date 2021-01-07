@@ -1,0 +1,34 @@
+.add_lead_model_button
+{
+    color: white;
+    background: black;
+    border-radius: 1px;;
+}
+
+.row
+{
+    color: white;
+    background: black;
+    border-color: white;
+    height: 39px;
+    width: 479px;
+}
+
+.leads_table
+{
+    margin-top: 16px;
+    width: 100%;
+}
+
+.update_lead_modal_btn
+{
+    background: black;
+    color: white;
+}
+
+.delete_lead_modal_btn
+{
+    background: black;
+    color: white;
+    margin-left: 12px;
+}
