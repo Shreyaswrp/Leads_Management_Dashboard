@@ -19,10 +19,12 @@ class LeadsManagementDashboard extends React.Component{
             this.setState({tableData: response.data})
             console.log(this.state.tableData);
         });
+       
+        
     }
 
     render(){
-        console.log(this.state.tableData);
+        
         return (
             <div>
             <button className="add_lead_model_button">Add Lead</button>
@@ -35,26 +37,17 @@ class LeadsManagementDashboard extends React.Component{
             <th className="row">Location String</th> 
             <th className="row">Action</th>
             </tr>
-            {this.state.tabelData.map((data)=>(
-            <tr>
-            <td>data.first_name</td>
-            <td>Smith</td>
-            <td>50</td>
-            <td>state</td>
-            <td>jharkhand</td>
+            {this.state.tableData.map((data)=>(
+            <tr className="row-data">
+            <td>{data.first_name +" " +data.last_name}</td>
+            <td>{data.email}</td>
+            <td>{data.mobile}</td>
+            <td>{data.location_type}</td>
+            <td>{data.location_string}</td>
             <td><button className="update_lead_modal_btn">Mark Update</button>
             <button className="delete_lead_modal_btn">Delete</button></td>
-            </tr>))}
-            <tr>
-            <td>Eve</td>
-            <td>Jackson</td>
-            <td>94</td>
             </tr>
-            <tr>
-            <td>John</td>
-            <td>Doe</td>
-            <td>80</td>
-            </tr>
+            ))}
             </table>
             </div>
         )
