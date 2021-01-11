@@ -1,15 +1,16 @@
-.add_lead_model_button
+.add_lead_modal_btn
 {
     color: white;
     background: black;
-    border-radius: 1px;;
+    border-radius: 1px;
+    margin-top: 12px;
 }
 
-.row
+.row-heading
 {
     color: white;
     background: black;
-    border-color: white;
+    border: 1px solid white;
     height: 39px;
     width: 479px;
 }
@@ -31,4 +32,90 @@
     background: black;
     color: white;
     margin-left: 12px;
+}
+
+.row-data
+{
+    background: lightgray;
+    color: black;
+    height: 50px;
+}
+
+.modal-header
+{
+    background: black;
+    color: white;
+}
+
+.cross-button
+{
+    color: white;
+}
+
+.form-row
+{
+    margin-top: 15px;
+}
+
+.input-area
+{
+    margin-left: 10px;
+}
+
+.error-star
+{
+    color: red;
+}
+
+.invalid-input
+{
+  margin-top: 1px;
+  color: red;
+  font-size: 11px;
+  height: 11px;
+  margin-bottom: 11px;
+}
+
+.row-info
+{
+    border: 1px solid white;
+    height: 50px;
+}
+
+.close-button
+{
+    background: white;
+    color: black;
+}
+
+.save-button
+{
+    background: black;
+    color: white;
+}
+
+.comm-area
+{
+    height: 141px;
+}
+
+.delete_lead_btn
+{
+    background:#FF1493;
+    color: white;
+}
+
+.cancel_btn
+{
+    background: black;
+}
+
+.modal-footer
+{
+    justify-content: center;
+}
+
+.location-area
+{
+    height: 11x;
 }
